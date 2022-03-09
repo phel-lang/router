@@ -1,0 +1,23 @@
+{
+    "name": "phel-lang/router",
+    "description": "A Phel router based on symfony routing component",
+    "type": "library",
+    "require": {
+        "symfony/routing": "^5.4"
+    },
+    "require-dev": {
+        "phel-lang/phel-lang": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jens Haase",
+            "email": "je.haase@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
