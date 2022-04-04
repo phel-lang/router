@@ -113,13 +113,23 @@
       route
       [path (put data :name (php/spl_object_hash route))])))
 
+(defn eval [form]
+  (let [cf (php/new \Phel\Compiler\CompilerFacade)
+        compiler-factory (php/new \Phel\Compiler\CompilerFactory)
+        emitter (php/-> compiler-factory (createStatementEmitter false))
+        evaluator (php/-> compiler-factory (createEvaluator))
+        env (php/-> (php/:: \Phel\Compiler\Analyzer\Environment\NodeEnvironment (empty)) (withContext "return"))
+        node (php/-> cf (analyze form env))
+        code (php/-> (php/-> emitter (emitNode node false)) (getCode))]
+    (php/-> evaluator (eval code))))
+
 (defmacro compiled-router
   "Builds a compiled router"
   [raw-routes & [options]]
-  (let [{:path path :data data} options
+  (let [{:path path :data data} (eval options)
         path (or path "")
         data (or data {})
-        flattened-routes (flatten/flatten-routes raw-routes path data)
+        flattened-routes (flatten/flatten-routes (eval raw-routes) path data)
         indexed-routes (for [route :in flattened-routes
                              :let [[_ data] route
                                    name (full-name (get data :name (str "_unnamed_route_" route)))]
@@ -130,7 +140,7 @@
         compiled-matcher-routes (php/-> match-dumper (getCompiledRoutes))
         generator-dumper (php/new CompiledUrlGeneratorDumper route-collection)
         compiled-generator-routes (php/-> generator-dumper (getCompiledRoutes))]
-    (CompiledSymfonyRouter compiled-matcher-routes compiled-generator-routes indexed-routes)))
+    `(CompiledSymfonyRouter ,compiled-matcher-routes ,compiled-generator-routes ,indexed-routes)))
 
 (defn handler
   "Returns a function request -> response that can be used to handle a route request."
