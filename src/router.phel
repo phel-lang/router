@@ -107,22 +107,6 @@
                 (apply php-associative-array))]
       (php/-> generator (generate (full-name route-name) arr)))))
 
-(defn- set-name-if-not-exists [route]
-  (let [[path data] route]
-    (if (:name data)
-      route
-      [path (put data :name (php/spl_object_hash route))])))
-
-(defn eval [form]
-  (let [cf (php/new \Phel\Compiler\CompilerFacade)
-        compiler-factory (php/new \Phel\Compiler\CompilerFactory)
-        emitter (php/-> compiler-factory (createStatementEmitter false))
-        evaluator (php/-> compiler-factory (createEvaluator))
-        env (php/-> (php/:: \Phel\Compiler\Analyzer\Environment\NodeEnvironment (empty)) (withContext "return"))
-        node (php/-> cf (analyze form env))
-        code (php/-> (php/-> emitter (emitNode node false)) (getCode))]
-    (php/-> evaluator (eval code))))
-
 (defmacro compiled-router
   "Builds a compiled router"
   [raw-routes & [options]]
