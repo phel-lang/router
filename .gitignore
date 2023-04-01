@@ -1,3 +1,15 @@
-/vendor/
+.idea/
+.phpbench/
+.vscode/
+data/
+out/
+PhelGenerated/
+var/
+vendor/
+
+*.cache
+.php-cs-fixer.php
 .phel-repl-history
-/out/
+local.phel
+phel-config-local.php
+gacela*.php

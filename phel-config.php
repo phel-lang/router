@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-return [
-    'src-dirs' => ['src'],
-    'test-dirs' => ['tests']
-];
+use Phel\Config\PhelConfig;
+
+return (new PhelConfig())
+    ->setSrcDirs(['src'])
+    ->setTestDirs(['tests']);

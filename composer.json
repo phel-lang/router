@@ -1,23 +1,37 @@
 {
     "name": "phel-lang/router",
-    "description": "A Phel router based on symfony routing component",
     "type": "library",
-    "require": {
-        "symfony/routing": "^5.4"
-    },
-    "require-dev": {
-        "phel-lang/phel-lang": "dev-master"
-    },
+    "description": "A Phel router based on symfony routing component",
+    "keywords": [
+        "phel",
+        "lisp",
+        "functional",
+        "language"
+    ],
+    "homepage": "https://phel-lang.org/",
     "license": "MIT",
     "authors": [
         {
             "name": "Jens Haase",
             "email": "je.haase@gmail.com"
+        },
+        {
+            "name": "Jose Maria Valera Reales",
+            "email": "chemaclass@outlook.es",
+            "homepage": "https://chemaclass.com"
         }
     ],
+    "require": {
+        "php": ">=8.0.2",
+        "phel-lang/phel-lang": "^0.10",
+        "symfony/routing": "^5.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phel test"
+    },
     "config": {
         "platform": {
-            "php": "8.0"
+            "php": "8.0.2"
         }
     }
 }
