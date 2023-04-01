@@ -6,6 +6,12 @@ A data driver router for [Phel](https://phel-lang.org/).
 * Inspired by [retit](https://github.com/metosin/reitit)
 * Fast
 
+## Installation
+
+```bash
+composer require phel-lang/router
+```
+
 ## Route syntax
 
 Routes are defined as vectors. The first element is the path of the route. This element is followed an optional map for route data and an optional vector of child routes. The paths of a route can have path parameters.
