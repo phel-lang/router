@@ -24,7 +24,7 @@
     "require": {
         "php": ">=8.2",
         "phel-lang/phel-lang": "^0.12",
-        "symfony/routing": "^5.4 || ^6.0"
+        "symfony/routing": "^6.4"
     },
     "scripts": {
         "test": "vendor/bin/phel test"
