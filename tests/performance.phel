@@ -1,24 +1,26 @@
 (ns phel\router-test\performance
-  (:require phel\router :as r))
+  (:require phel\router :as r)
+  (:require phel\test :refer [deftest]))
 
-(def routes
+(def- routes
   (apply
    concat
    (for [i :range [0 400]]
      [[(str "/abc" i) {:name (str "r" i)}]
       [(str "/abc{foo}/" i) {:name (str "f" i)}]])))
 
-(def dynamic-router (r/router routes {}))
-(def compiled-router (r/compiled-router routes {}))
+(def- dynamic-router (r/router routes {}))
+(def- compiled-router (r/compiled-router routes {}))
 
-(def loops 10000)
+(def- loops 10000)
 
-(when-not *build-mode*
+(deftest test-dynamic-vs-compiled-router-performance
   (let [s (php/microtime 1)]
     (for [i :range [0 loops]]
       (r/match-by-path dynamic-router "/abcdef/399"))
-    (println "Dynamic router: " (* 1000 (- (php/microtime 1) s))))
+    (println "Dynamic router: " (* 1000 (- (php/microtime 1) s)))))
 
+(deftest test-compiled-router-performance
   (let [s (php/microtime 1)]
     (for [i :range [0 loops]]
       (r/match-by-path compiled-router "/abcdef/399"))
