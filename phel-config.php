@@ -6,4 +6,8 @@ use Phel\Config\PhelConfig;
 
 return (new PhelConfig())
     ->setSrcDirs(['src'])
-    ->setTestDirs(['tests']);
+    ->setTestDirs(['tests'])
+    ->setIgnoreWhenBuilding([
+        'performance.phel',
+        'local.phel'
+    ]);

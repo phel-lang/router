@@ -13,7 +13,7 @@
 
 (def loops 10000)
 
-(when-not *compile-mode*
+(when-not *build-mode*
   (let [s (php/microtime 1)]
     (for [i :range [0 loops]]
       (r/match-by-path dynamic-router "/abcdef/399"))

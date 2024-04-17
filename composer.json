@@ -23,10 +23,12 @@
     ],
     "require": {
         "php": ">=8.2",
-        "phel-lang/phel-lang": "^0.12",
+        "phel-lang/phel-lang": "^0.13",
         "symfony/routing": "^6.4 || ^7.0"
     },
     "scripts": {
+        "build": "vendor/bin/phel build --no-cache",
+        "format": "vendor/bin/phel format",
         "test": "vendor/bin/phel test"
     },
     "config": {
