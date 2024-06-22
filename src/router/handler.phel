@@ -33,7 +33,7 @@
       (let [route (get-in request [:attributes :route])]
         (if route
           (let [method (-> request :method php/strtolower keyword)
-                handler (find-handler route method)]
+                handler (find-handler route method nil)]
             (if handler
               (not-acceptable request)
               (method-not-allowed request)))
