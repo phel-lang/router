@@ -3,7 +3,7 @@
 A data driver router for [Phel](https://phel-lang.org/).
 
 * Based on [Symfony Routing](https://github.com/symfony/routing)
-* Inspired by [retit](https://github.com/metosin/reitit)
+* Inspired by [reitit](https://github.com/metosin/reitit)
 * Fast
 
 ## Installation
