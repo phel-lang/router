@@ -61,7 +61,7 @@ Nested routes:
 
 ```phel
 ["/api"
- ["/admin" {:middware [admin-middleware-fn]}
+ ["/admin" {:middleware [admin-middleware-fn]}
   ["" {:name ::admin}]
   ["/db" {name ::db}]]
  ["/ping" {:name ::ping}]]
