@@ -11,6 +11,5 @@ vendor/
 .php-cs-fixer.php
 .phel-repl-history
 local.phel
-composer.lock
 phel-config-local.php
 gacela*.php
