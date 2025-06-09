@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2e400bfcd092c91d1589e3654188bdf",
+    "content-hash": "454e079a3fa3baf7aeffd5a694901d85",
     "packages": [
         {
             "name": "gacela-project/container",
@@ -160,16 +160,16 @@
         },
         {
             "name": "phel-lang/phel-lang",
-            "version": "v0.17.0",
+            "version": "v0.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phel-lang/phel-lang.git",
-                "reference": "548e7e5cd0cfd0a76efdcbdff695c34b336b5bbc"
+                "reference": "d47b18611c86717224c7aa172da9ef1150067199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/548e7e5cd0cfd0a76efdcbdff695c34b336b5bbc",
-                "reference": "548e7e5cd0cfd0a76efdcbdff695c34b336b5bbc",
+                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/d47b18611c86717224c7aa172da9ef1150067199",
+                "reference": "d47b18611c86717224c7aa172da9ef1150067199",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phel-lang/phel-lang/issues",
-                "source": "https://github.com/phel-lang/phel-lang/tree/v0.17.0"
+                "source": "https://github.com/phel-lang/phel-lang/tree/v0.18.0"
             },
             "funding": [
                 {
@@ -232,7 +232,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-06-01T01:50:03+00:00"
+            "time": "2025-06-09T16:56:59+00:00"
         },
         {
             "name": "phpunit/php-timer",
