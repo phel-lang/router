@@ -160,16 +160,16 @@
         },
         {
             "name": "phel-lang/phel-lang",
-            "version": "v0.18.0",
+            "version": "v0.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phel-lang/phel-lang.git",
-                "reference": "d47b18611c86717224c7aa172da9ef1150067199"
+                "reference": "d9029ac26ff5ee9a1144df0e6c026403423da5b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/d47b18611c86717224c7aa172da9ef1150067199",
-                "reference": "d47b18611c86717224c7aa172da9ef1150067199",
+                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/d9029ac26ff5ee9a1144df0e6c026403423da5b8",
+                "reference": "d9029ac26ff5ee9a1144df0e6c026403423da5b8",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phel-lang/phel-lang/issues",
-                "source": "https://github.com/phel-lang/phel-lang/tree/v0.18.0"
+                "source": "https://github.com/phel-lang/phel-lang/tree/v0.18.1"
             },
             "funding": [
                 {
@@ -232,7 +232,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-06-09T16:56:59+00:00"
+            "time": "2025-06-18T05:02:17+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -348,16 +348,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "66c1440edf6f339fd82ed6c7caa76cb006211b44"
+                "reference": "9e27aecde8f506ba0fd1d9989620c04a87697101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/66c1440edf6f339fd82ed6c7caa76cb006211b44",
-                "reference": "66c1440edf6f339fd82ed6c7caa76cb006211b44",
+                "url": "https://api.github.com/repos/symfony/console/zipball/9e27aecde8f506ba0fd1d9989620c04a87697101",
+                "reference": "9e27aecde8f506ba0fd1d9989620c04a87697101",
                 "shasum": ""
             },
             "require": {
@@ -422,7 +422,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.0"
+                "source": "https://github.com/symfony/console/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -438,7 +438,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-24T10:34:04+00:00"
+            "time": "2025-06-27T19:55:54+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1091,5 +1091,5 @@
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
