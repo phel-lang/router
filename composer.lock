@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "gacela-project/container",
-            "version": "0.6.1",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gacela-project/container.git",
-                "reference": "3b52beec5d01ab8084ab294c5d1b69a630cbced5"
+                "reference": "64315ade4f21407a807e48f7d18cf5a96c387cd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gacela-project/container/zipball/3b52beec5d01ab8084ab294c5d1b69a630cbced5",
-                "reference": "3b52beec5d01ab8084ab294c5d1b69a630cbced5",
+                "url": "https://api.github.com/repos/gacela-project/container/zipball/64315ade4f21407a807e48f7d18cf5a96c387cd7",
+                "reference": "64315ade4f21407a807e48f7d18cf5a96c387cd7",
                 "shasum": ""
             },
             "require": {
@@ -25,12 +25,12 @@
                 "psr/container": ">=1.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.59",
-                "phpstan/phpstan": "^1.11",
+                "friendsofphp/php-cs-fixer": "^3.75",
+                "phpstan/phpstan": "^1.12",
                 "phpunit/phpunit": "^10.5",
                 "psalm/plugin-phpunit": "^0.18",
                 "symfony/var-dumper": "^5.4",
-                "vimeo/psalm": "^5.25"
+                "vimeo/psalm": "^5.26"
             },
             "type": "library",
             "autoload": {
@@ -50,8 +50,8 @@
                 },
                 {
                     "name": "Jesus Valera Reales",
-                    "email": "jesus1902@outlook.com",
-                    "homepage": "https://jesusvalerareales.com/"
+                    "email": "hello@jesusvalera.dev",
+                    "homepage": "https://jesusvalera.dev/"
                 }
             ],
             "description": "A minimalistic container dependency resolver",
@@ -64,7 +64,7 @@
             ],
             "support": {
                 "issues": "https://github.com/gacela-project/resolver/issues",
-                "source": "https://github.com/gacela-project/container/tree/0.6.1"
+                "source": "https://github.com/gacela-project/container/tree/0.7.0"
             },
             "funding": [
                 {
@@ -72,32 +72,32 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-07-06T11:15:35+00:00"
+            "time": "2025-08-01T22:35:09+00:00"
         },
         {
             "name": "gacela-project/gacela",
-            "version": "1.9.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gacela-project/gacela.git",
-                "reference": "c2e757b73e476c5fc9a07e6b2e1f59abf1c9011f"
+                "reference": "7f8a7477f58c4c926ff5557229547d39f26b2adb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gacela-project/gacela/zipball/c2e757b73e476c5fc9a07e6b2e1f59abf1c9011f",
-                "reference": "c2e757b73e476c5fc9a07e6b2e1f59abf1c9011f",
+                "url": "https://api.github.com/repos/gacela-project/gacela/zipball/7f8a7477f58c4c926ff5557229547d39f26b2adb",
+                "reference": "7f8a7477f58c4c926ff5557229547d39f26b2adb",
                 "shasum": ""
             },
             "require": {
-                "gacela-project/container": "^0.6",
+                "gacela-project/container": "^0.7",
                 "php": ">=8.1"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.45",
+                "ergebnis/composer-normalize": "^2.47",
                 "friendsofphp/php-cs-fixer": "^3.56",
                 "infection/infection": "^0.26",
                 "phpbench/phpbench": "^1.3",
-                "phpmetrics/phpmetrics": "^2.8",
+                "phpmetrics/phpmetrics": "^2.9",
                 "phpstan/phpstan": "^1.12",
                 "phpstan/phpstan-strict-rules": "^1.6",
                 "phpunit/phpunit": "^10.5",
@@ -134,8 +134,8 @@
                 },
                 {
                     "name": "Jesus Valera Reales",
-                    "email": "jesus1902@outlook.com",
-                    "homepage": "https://jesusvalerareales.com/"
+                    "email": "hello@jesusvalera.dev",
+                    "homepage": "https://jesusvalera.dev/"
                 }
             ],
             "description": "Gacela helps you separate your project into modules",
@@ -148,7 +148,7 @@
             ],
             "support": {
                 "issues": "https://github.com/gacela-project/gacela/issues",
-                "source": "https://github.com/gacela-project/gacela/tree/1.9.1"
+                "source": "https://github.com/gacela-project/gacela/tree/1.10.0"
             },
             "funding": [
                 {
@@ -156,7 +156,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-12-12T19:17:34+00:00"
+            "time": "2025-08-01T22:53:30+00:00"
         },
         {
             "name": "phel-lang/phel-lang",
