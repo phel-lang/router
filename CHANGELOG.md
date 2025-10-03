@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.0](https://github.com/phel-lang/phel-lang/compare/v0.7.0...v0.8.0) - 2025-10-03
+
+* Support phel-lang >= 0.22
+* Require PHP >= 8.3
+
+## [0.7.0](https://github.com/phel-lang/phel-lang/compare/v0.6.0...v0.7.0) - 2025-06-01
+
+* Support phel-lang >= 0.17
+
+## [0.6.0](https://github.com/phel-lang/phel-lang/compare/v0.5.0...v0.6.0) - 2024-12-13
+
+* Support phel-lang >= 0.16
+
 ## [0.5.0](https://github.com/phel-lang/phel-lang/compare/v0.4.0...v0.5.0) - 2024-06-22
 
 * Support phel-lang >= 0.15
