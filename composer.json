@@ -16,15 +16,15 @@
             "email": "je.haase@gmail.com"
         },
         {
-            "name": "Jose Maria Valera Reales",
+            "name": "Jose M. Valera Reales",
             "email": "chemaclass@outlook.es",
             "homepage": "https://chemaclass.com"
         }
     ],
     "require": {
-        "php": ">=8.2",
-        "phel-lang/phel-lang": ">=0.18",
-        "gacela-project/gacela": ">=1.9",
+        "php": ">=8.3",
+        "phel-lang/phel-lang": ">=0.22",
+        "gacela-project/gacela": ">=1.10",
         "symfony/routing": ">=7.3"
     },
     "scripts": {
@@ -34,7 +34,7 @@
     },
     "config": {
         "platform": {
-            "php": "8.2"
+            "php": "8.3"
         }
     }
 }
