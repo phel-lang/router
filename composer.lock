@@ -76,16 +76,16 @@
         },
         {
             "name": "gacela-project/gacela",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gacela-project/gacela.git",
-                "reference": "7f8a7477f58c4c926ff5557229547d39f26b2adb"
+                "reference": "87d099d39d8d0349cd0abd961cda0f026512e263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gacela-project/gacela/zipball/7f8a7477f58c4c926ff5557229547d39f26b2adb",
-                "reference": "7f8a7477f58c4c926ff5557229547d39f26b2adb",
+                "url": "https://api.github.com/repos/gacela-project/gacela/zipball/87d099d39d8d0349cd0abd961cda0f026512e263",
+                "reference": "87d099d39d8d0349cd0abd961cda0f026512e263",
                 "shasum": ""
             },
             "require": {
@@ -94,18 +94,18 @@
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.47",
-                "friendsofphp/php-cs-fixer": "^3.56",
-                "infection/infection": "^0.26",
+                "friendsofphp/php-cs-fixer": "^3.88",
+                "infection/infection": "^0.29",
                 "phpbench/phpbench": "^1.3",
                 "phpmetrics/phpmetrics": "^2.9",
                 "phpstan/phpstan": "^1.12",
                 "phpstan/phpstan-strict-rules": "^1.6",
                 "phpunit/phpunit": "^10.5",
-                "psalm/plugin-phpunit": "^0.19",
+                "psalm/plugin-phpunit": "^0.19.5",
                 "rector/rector": "^1.2",
                 "symfony/console": "^6.4",
                 "symfony/var-dumper": "^6.4",
-                "vimeo/psalm": "^5.26"
+                "vimeo/psalm": "^6.13"
             },
             "suggest": {
                 "gacela-project/gacela-env-config-reader": "Allows to read .env config files",
@@ -148,7 +148,7 @@
             ],
             "support": {
                 "issues": "https://github.com/gacela-project/gacela/issues",
-                "source": "https://github.com/gacela-project/gacela/tree/1.10.0"
+                "source": "https://github.com/gacela-project/gacela/tree/1.11.0"
             },
             "funding": [
                 {
@@ -156,24 +156,24 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-08-01T22:53:30+00:00"
+            "time": "2025-10-12T16:34:24+00:00"
         },
         {
             "name": "phel-lang/phel-lang",
-            "version": "v0.22.2",
+            "version": "v0.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phel-lang/phel-lang.git",
-                "reference": "7335a842891aba04cb4ddcd4905cb6e23fd6ac25"
+                "reference": "00949d238ddbba6567555f1db646cc43197652a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/7335a842891aba04cb4ddcd4905cb6e23fd6ac25",
-                "reference": "7335a842891aba04cb4ddcd4905cb6e23fd6ac25",
+                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/00949d238ddbba6567555f1db646cc43197652a4",
+                "reference": "00949d238ddbba6567555f1db646cc43197652a4",
                 "shasum": ""
             },
             "require": {
-                "gacela-project/gacela": "^1.10",
+                "gacela-project/gacela": "^1.11",
                 "php": ">=8.3",
                 "phpunit/php-timer": "^6.0",
                 "symfony/console": "^7.3"
@@ -181,14 +181,14 @@
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.48",
                 "ext-readline": "*",
-                "friendsofphp/php-cs-fixer": "^3.87",
+                "friendsofphp/php-cs-fixer": "^3.89",
                 "phpbench/phpbench": "^1.4",
                 "phpstan/phpstan": "^2.1",
                 "phpunit/phpunit": "^10.5",
                 "psalm/plugin-phpunit": "^0.19",
-                "rector/rector": "^2.1",
+                "rector/rector": "^2.2",
                 "symfony/var-dumper": "^7.3",
-                "vimeo/psalm": "^5.26"
+                "vimeo/psalm": "^7.0.0-beta11"
             },
             "bin": [
                 "bin/phel"
@@ -217,7 +217,7 @@
                     "homepage": "https://chemaclass.com"
                 }
             ],
-            "description": "Phel is a functional programming language that transpiles to PHP",
+            "description": "Phel is a functional programming language that compiles to PHP",
             "homepage": "https://phel-lang.org/",
             "keywords": [
                 "functional",
@@ -227,7 +227,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phel-lang/phel-lang/issues",
-                "source": "https://github.com/phel-lang/phel-lang/tree/v0.22.2"
+                "source": "https://github.com/phel-lang/phel-lang/tree/v0.24.0"
             },
             "funding": [
                 {
@@ -235,7 +235,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-09-23T13:36:11+00:00"
+            "time": "2025-10-26T17:19:06+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -351,16 +351,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.4",
+            "version": "v7.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2b9c5fafbac0399a20a2e82429e2bd735dcfb7db"
+                "reference": "cdb80fa5869653c83cfe1a9084a673b6daf57ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2b9c5fafbac0399a20a2e82429e2bd735dcfb7db",
-                "reference": "2b9c5fafbac0399a20a2e82429e2bd735dcfb7db",
+                "url": "https://api.github.com/repos/symfony/console/zipball/cdb80fa5869653c83cfe1a9084a673b6daf57ea7",
+                "reference": "cdb80fa5869653c83cfe1a9084a673b6daf57ea7",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +425,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.4"
+                "source": "https://github.com/symfony/console/tree/v7.3.5"
             },
             "funding": [
                 {
@@ -445,7 +445,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-22T15:31:00+00:00"
+            "time": "2025-10-14T15:46:26+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
