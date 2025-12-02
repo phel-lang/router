@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.9.0](https://github.com/phel-lang/phel-lang/compare/v0.8.0...v0.9.0) - 2025-12-02
+
+* Support phel-lang >= 0.26
+
 ## [0.8.0](https://github.com/phel-lang/phel-lang/compare/v0.7.0...v0.8.0) - 2025-10-03
 
 * Support phel-lang >= 0.22
