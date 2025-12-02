@@ -23,8 +23,8 @@
     ],
     "require": {
         "php": ">=8.3",
-        "phel-lang/phel-lang": ">=0.22",
-        "gacela-project/gacela": ">=1.10",
+        "phel-lang/phel-lang": ">=0.26",
+        "gacela-project/gacela": ">=1.11",
         "symfony/routing": ">=7.3"
     },
     "scripts": {

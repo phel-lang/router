@@ -56,11 +56,9 @@
            (generate [this route-name parameters]
                      (let [context (php/new RequestContext)
                            generator (php/new UrlGenerator route-collection context)
-                           arr (->>
-                                parameters
-                                (map-indexed (fn [k v] [(name k) v]))
-                                flatten
-                                (apply php-associative-array))]
+                           arr (for [[k v] :pairs parameters
+                                     :reduce [acc (php/array)]]
+                                 (do (php/aset acc (name k) v) acc))]
                        (php/-> generator (generate (full-name route-name) arr)))))
 
 (defn router
@@ -100,11 +98,9 @@
            (generate [this route-name parameters]
                      (let [context (php/new RequestContext)
                            generator (php/new CompiledUrlGenerator compiled-generator-routes context)
-                           arr (->>
-                                parameters
-                                (map-indexed (fn [k v] [(name k) v]))
-                                flatten
-                                (apply php-associative-array))]
+                           arr (for [[k v] :pairs parameters
+                                     :reduce [acc (php/array)]]
+                                 (do (php/aset acc (name k) v) acc))]
                        (php/-> generator (generate (full-name route-name) arr)))))
 
 (defmacro compiled-router

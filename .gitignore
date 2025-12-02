@@ -1,6 +1,7 @@
 .idea/
 .phpbench/
 .vscode/
+.claude/
 data/
 out/
 PhelGenerated/
