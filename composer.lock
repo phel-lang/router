@@ -160,16 +160,16 @@
         },
         {
             "name": "phel-lang/phel-lang",
-            "version": "v0.27.0",
+            "version": "v0.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phel-lang/phel-lang.git",
-                "reference": "8fcf603b7e5256e98614868e516f4e89096eabc2"
+                "reference": "06ebd8102dcce28b435cd900015390d478775975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/8fcf603b7e5256e98614868e516f4e89096eabc2",
-                "reference": "8fcf603b7e5256e98614868e516f4e89096eabc2",
+                "url": "https://api.github.com/repos/phel-lang/phel-lang/zipball/06ebd8102dcce28b435cd900015390d478775975",
+                "reference": "06ebd8102dcce28b435cd900015390d478775975",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phel-lang/phel-lang/issues",
-                "source": "https://github.com/phel-lang/phel-lang/tree/v0.27.0"
+                "source": "https://github.com/phel-lang/phel-lang/tree/v0.29.0"
             },
             "funding": [
                 {
@@ -235,7 +235,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-12-24T18:06:06+00:00"
+            "time": "2026-02-01T13:18:54+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -1127,5 +1127,5 @@
     "platform-overrides": {
         "php": "8.3"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
