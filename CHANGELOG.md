@@ -3,7 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 
-## [0.9.0](https://github.com/phel-lang/phel-lang/compare/v0.8.0...v0.9.0) - 2025-12-02
+## [0.10.0](https://github.com/phel-lang/router/compare/v0.9.0...v0.10.0) - 2026-02-01
+
+* Support phel-lang >= 0.29
+
+## [0.9.0](https://github.com/phel-lang/router/compare/v0.8.0...v0.9.0) - 2025-12-02
 
 * Support phel-lang >= 0.26
 
