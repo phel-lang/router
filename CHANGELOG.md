@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 
+## Deprecated - 2026-04-12
+
+This package is deprecated. The router has been merged into [phel-lang/phel-lang](https://github.com/phel-lang/phel-lang) via [PR #1430](https://github.com/phel-lang/phel-lang/pull/1430). Use `phel\router` from the core library instead.
+
 ## [0.10.0](https://github.com/phel-lang/router/compare/v0.9.0...v0.10.0) - 2026-02-01
 
 * Support phel-lang >= 0.29

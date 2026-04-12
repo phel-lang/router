@@ -2,6 +2,7 @@
     "name": "phel-lang/router",
     "type": "library",
     "description": "A Phel router based on symfony routing component",
+    "abandoned": "phel-lang/phel-lang",
     "keywords": [
         "phel",
         "lisp",
